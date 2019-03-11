@@ -1,0 +1,11 @@
+一、下载解压的JMeter文件的安装包
+链接: https://pan.baidu.com/s/1tFCr7CAHHOdTxGXnX5w_UA 提取码：b6ve
+二、下载对应的JDK文件
+链接: https://pan.baidu.com/s/1Miw0ReE7nmMDGMh9FGU4Hg 提取码: qz6m 
+三、配置JDK环境变量
+注意：系统变量里面配置
+系统变量名：CLASSPATH
+系统变量值：.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+系统变量名：JAVA_HOME
+系统变量值：自己的JDK路径
+在原有的系统变量Path中添加  %JAVA_HOME%\lib和%JAVA_HOME%\jre\bin
