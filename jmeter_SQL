@@ -1,0 +1,10 @@
+使用jmeter连接数据库 注意事项
+1、下载mysql 驱动 链接: https://pan.baidu.com/s/1OCcK1HJOXSGW4pwGJNAgAA 提取码: pdx7
+驱动放到 lib文件夹和lib文件夹中的ext文件夹
+2、JDBC Connection Configuration 中 Variable Name Bound to Pool 和 JDBC Request 中 Variable Name Bound to Pool 需一致
+3、JDBC Connection Configuration中
+(1)Database URL:jdbc:mysql://(主机名):(端口号)/(库名)
+(2)JDBC Driver class:选择com.mysql.jdbc.Driver
+(3)Username:数据库用户名
+(4)Password:数据库密码
+4、JDBC Request Query Type:选择Select Statement
